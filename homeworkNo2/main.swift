@@ -7,5 +7,16 @@
 
 import Foundation
 
-print("Hello, World!")
+
+func evenOddNumber(value: Int) {
+    if value % 2 == 0{
+        print("Число четное")
+    } else {
+        print("Число нечетное")
+    }
+    
+}
+
+
+
 
