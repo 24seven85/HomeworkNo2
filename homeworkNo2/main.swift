@@ -19,4 +19,15 @@ func evenOddNumber(value: Int) {
 
 
 
+func divisionToThree(value: Int) -> Int {
+     if value % 3 == 0{
+        print("делится без остатка")
+     }else {
+        print("делится с остатком")
+     }
+    return value
+ }
+ let result = divisionToThree(value: 30)
+
+
 
