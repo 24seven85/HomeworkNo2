@@ -31,3 +31,12 @@ func divisionToThree(value: Int) -> Int {
 
 
 
+var array = [Int]()
+for index in 1...100{
+    array.append(index)
+    }
+
+
+
+
+
