@@ -38,5 +38,13 @@ for index in 1...100{
 
 
 
+for element in array where (element % 2 == 0) || (element % 3 != 0) {
+    array.remove(at : (array.index(of: element)!))
+    
+}
+print(array)
+
+
+
 
 
