@@ -7,5 +7,44 @@
 
 import Foundation
 
-print("Hello, World!")
+
+func evenOddNumber(value: Int) {
+    if value % 2 == 0{
+        print("Число четное")
+    } else {
+        print("Число нечетное")
+    }
+    
+}
+
+
+
+func divisionToThree(value: Int) -> Int {
+     if value % 3 == 0{
+        print("делится без остатка")
+     }else {
+        print("делится с остатком")
+     }
+    return value
+ }
+ let result = divisionToThree(value: 30)
+
+
+
+var array = [Int]()
+for index in 1...100{
+    array.append(index)
+    }
+
+
+
+for element in array where (element % 2 == 0) || (element % 3 != 0) {
+    array.remove(at : (array.index(of: element)!))
+    
+}
+print(array)
+
+
+
+
 
